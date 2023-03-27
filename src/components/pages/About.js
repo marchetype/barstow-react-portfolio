@@ -2,8 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className='page-format'>
       <p>
             I am a 21 y/o bootcamp student from Charlottesville, Virginia 
             who is looking to enhance my creative ability through code. 

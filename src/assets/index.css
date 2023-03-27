@@ -39,12 +39,20 @@ html {
 h1 {
     color: var(--bright-gray-5);
 }
+.page-format {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    align-content: space-around;
+}
 /*NAVBAR STYLES*/
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     font-style: italic;
     cursor: default;
+    color: var(--ocean-green)
 }
 .topbar {
     width: 100%;
@@ -140,5 +148,25 @@ h1 {
     max-width: 200px;
     filter: blur(2px);
 }
-
+/*CONTACT PAGE STYLES*/
+.contact-card-section {
+    display: flex;
+    justify-content: space-around;
+}
+.contact-card {
+    width: 200px;
+    height: 200px;
+    border: 4px solid var(--dark-coral);
+    background-color: var(--teal-gray);
+    display: flex;
+    justify-content: space-around;
+}
+.contact-card h2{
+    display: flex;
+    justify-content: center;
+}
+.descript-divide {
+    height: 25%;
+    border-bottom: 3px solid var(--charcoal)
+}
 

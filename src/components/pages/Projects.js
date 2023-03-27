@@ -8,7 +8,7 @@ import passwordAppSS from '../../assets/images/deployed-mod3-ss.png';
 
 export default function Projects() {
   return (
-    <div>
+    <div className='page-format'>
       <main>
         <section className='code-project-cards'>
           <article className="current-project">

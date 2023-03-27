@@ -1,50 +1,53 @@
 import React from 'react';
 
-
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='topbar'>
-        <ul className="nav nav-tabs">
-        <li className="nav-item">
+        <ul className="nav">
+        <li>
             <a
             href="#home"
             onClick={() => handlePageChange('Home')}
-            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Home' ? 'nav-link-active' : 'nav-link'}
             >
-            Home
+            HOME
             </a>
         </li>
-        <li className="nav-item">
+        <li>
             <a
             href="#about"
             onClick={() => handlePageChange('About')}
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'About' ? 'nav-link-active' : 'nav-link'}
             >
-            About
+            ABOUT
             </a>
         </li>
-        <li className="nav-item">
+        <li>
             <a
             href="#projects"
             onClick={() => handlePageChange('Projects')}
-            className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Projects' ? 'nav-link-active' : 'nav-link'}
             >
-            Projects
+            PROJECTS
             </a>
         </li>
-        <li className="nav-item">
+        <li>
             <a
             href="#contact"
             onClick={() => handlePageChange('Contact')}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === 'Contact' ? 'nav-link-active' : 'nav-link'}
             >
-            Contact
+            CONTACT
             </a>
         </li>
         </ul>
-        <ul className='logo-section'>
-        <li>Mark Barstow</li>
-        </ul>        
+        <div className='logo-section'>
+            <h2 
+            className='logo'
+            onClick={() => handlePageChange('Home')}>
+                MARK BARSTOW
+            </h2>
+        </div>        
     </div>
 
   );

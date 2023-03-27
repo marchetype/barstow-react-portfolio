@@ -1,3 +1,46 @@
+:root{
+    --dark-coral: #FF5F00;
+    --ocean-green: #00B694;
+    --bright-coral: #FF8F5F;
+    --deep-seafoam: #00877D;
+    --burnt-orange: #FFA55F;
+    --slate-gray: #5F5F5F;
+    --darker-coral: #FF3F00;
+    --teal-gray: #455759;
+    --rust-orange: #D56C2E;
+    --olive-gray: #5E6A71;
+    --warm-coral: #FF6F4F;
+    --charcoal: #2C2C2C;
+    --bright-gray-1: #F0F0F0;
+    --bright-gray-2: #E8EBED;
+    --bright-gray-3: #E0E0E0;
+    --bright-gray-4: #D3D3D3;
+    --bright-gray-5: #C0C0C0;
+    --bright-gray-6: #B5B5B5;
+}
+html {
+    background-color: var(--charcoal);
+    color: var(--bright-gray-6)
+}
 h1{
-    color: blue;
+    color: var(--bright-gray-5);
+}
+.home-page {
+    background-color: var(--deep-seafoam);
+}
+.topbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-section {
+    flex-direction: row-reverse;
+    list-style: none;
+}
+.nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

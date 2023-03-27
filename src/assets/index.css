@@ -52,7 +52,10 @@ h1 {
     font-weight: 900;
     font-style: italic;
     cursor: default;
-    color: var(--ocean-green)
+    color: var(--ocean-green);
+    margin-bottom: 2px;
+    border-bottom: 2px solid var(--burnt-orange)
+
 }
 .topbar {
     width: 100%;

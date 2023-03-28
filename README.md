@@ -14,5 +14,6 @@
   - Please visit the deployed link to view my work. The nav-bar at the top of the page allows you to view different sections of the site.
   ## Deployment
   - the link to the deployed GitHub Pages website is [here](https://marchetype.github.io/barstow-react-portfolio/).
+  - ![Deployment Screenshot](./src/assets/images/deployed-react-portfolio.png)
   ### GitHub Username
   - marchetype

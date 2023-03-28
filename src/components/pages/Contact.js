@@ -17,9 +17,9 @@ export default function Contact() {
           </a>
         </div>
         <div className='contact-card'>
-          <a href="mailto:markanthonybarstow@gmail.com" target='_blank' rel='noreferrer'>
+          <a href="mailto:example@gmail.com" target='_blank' rel='noreferrer'>
             <h2 className='descript-divide'>Email Me</h2>
-            <p>markanthonybarstow@gmail.com</p>
+            <p>@gmail.com</p>
           </a>
         </div>
       </div>

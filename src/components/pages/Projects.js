@@ -1,5 +1,6 @@
 import React from 'react';
-import currentProj from '../../assets/images/deployed-character-generator.png';
+import currentProj from '../../assets/images/deployed-birdbrain-ss.png';
+import characterizeProjSS from '../../assets/images/deployed-character-generator.png'
 import boxProjSS from '../../assets/images/deployed_box-proj_ss.png';
 import weatherAppSS from '../../assets/images/deployed-mod6-ss.png';
 import scheduleAppSS from '../../assets/images/deployed-mod5-ss.png';
@@ -13,12 +14,18 @@ export default function Projects() {
         <section className='code-project-cards'>
           <article className="current-project">
             <img src={currentProj} alt="Screenshot of most recent project" className='background-image'/>
-            <a href="https://characterize-this.herokuapp.com/" target="_blank" rel='noreferrer' className="project-title">Characterize This!
+            <a href="https://birdbrain.herokuapp.com/" target="_blank" rel='noreferrer' className="project-title">Bird Brain: Social Media
               <p className="project-desc">Focus: Fullstack Development and Group Work</p>
             </a>
           </article>
 
           <article className="past-div">
+            <div className="past-project">
+              <img src={characterizeProjSS} alt="Screenshot of previous project" className='past-background-image'/>
+              <a href="https://characterize-this.herokuapp.com/" target="_blank" rel='noreferrer' className="project-title">Characterize This!
+                <p className='past-project-desc'>Focus: Fullstack Development and Group Work</p>
+              </a>
+            </div>
             <div className="past-project">
               <img src={boxProjSS} alt="Screenshot of previous project" className='past-background-image'/>
               <a href="https://marchetype.github.io/the-box-project/" target="_blank" rel='noreferrer' className="past-project-title">The Box Project

@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/barstow-react-portfolio/static/css/main.3bd64eb2.css",
-    "main.js": "/barstow-react-portfolio/static/js/main.0b413816.js",
+    "main.js": "/barstow-react-portfolio/static/js/main.57d34662.js",
     "static/media/deployed_box-proj_ss.png": "/barstow-react-portfolio/static/media/deployed_box-proj_ss.e9e4ed409468d1875dd8.png",
     "static/media/homepage.jpg": "/barstow-react-portfolio/static/media/homepage.7099ac417d2f4bc32a3d.jpg",
+    "static/media/deployed-birdbrain-ss.png": "/barstow-react-portfolio/static/media/deployed-birdbrain-ss.fcea82581b38749d03dc.png",
     "static/media/deployed-character-generator.png": "/barstow-react-portfolio/static/media/deployed-character-generator.421889ecd86d8c803f5a.png",
     "static/media/deployed-mod4-ss.png": "/barstow-react-portfolio/static/media/deployed-mod4-ss.3882816620d5b84eb65d.png",
     "static/media/deployed-mod6-ss.png": "/barstow-react-portfolio/static/media/deployed-mod6-ss.c2e58b7f8f9fe7748971.png",
@@ -11,10 +12,10 @@
     "static/media/deployed-mod3-ss.png": "/barstow-react-portfolio/static/media/deployed-mod3-ss.e0b4fbe82377fd00d7df.png",
     "index.html": "/barstow-react-portfolio/index.html",
     "main.3bd64eb2.css.map": "/barstow-react-portfolio/static/css/main.3bd64eb2.css.map",
-    "main.0b413816.js.map": "/barstow-react-portfolio/static/js/main.0b413816.js.map"
+    "main.57d34662.js.map": "/barstow-react-portfolio/static/js/main.57d34662.js.map"
   },
   "entrypoints": [
     "static/css/main.3bd64eb2.css",
-    "static/js/main.0b413816.js"
+    "static/js/main.57d34662.js"
   ]
 }
